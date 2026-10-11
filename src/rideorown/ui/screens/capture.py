@@ -25,8 +25,8 @@ from rideorown.ui.components import (
 def render(repo, workspace):
     page_intro(
         "01 / Cab receipts",
-        "Start with six months of cab spending.",
-        "Upload receipts, then check dates and distinguish selected prices from final payments.",
+        "Understand your cab spending.",
+        "Upload the cab receipts you have, then review ride dates, selected prices, and final payments.",
     )
     _receipts(repo, workspace)
 

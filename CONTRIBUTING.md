@@ -12,9 +12,10 @@ uv run streamlit run app.py
 Before opening a pull request, run:
 
 ```sh
-uv run ruff check .
-uv run ruff format --check .
-uv run pytest -q
+uv sync --locked
+uv run --no-sync ruff check .
+uv run --no-sync ruff format --check .
+uv run --no-sync pytest -q
 ```
 
 Keep changes focused and describe the resulting behavior and validation. Update documentation when behavior changes. Keep `uv.lock` committed; update it with uv when changing dependencies.

@@ -170,9 +170,10 @@ Local-only folders such as `data/`, `sample-data/`, `instructions/`, `reports/`,
 ## Verify
 
 ```powershell
-uv run pytest -q
-uv run ruff check .
-uv run ruff format --check .
+uv sync --locked
+uv run --no-sync ruff check .
+uv run --no-sync ruff format --check .
+uv run --no-sync pytest -q
 ```
 
 Tests use synthetic receipts and temporary workspaces and do not modify your runtime data. They cover receipt parsing, duplicate imports, reconciliation, loan and insurance timing, cash/net accounting, retained fares, recurrence, missing distances, backup integrity, and main UI flows. GitHub Actions runs these checks on Linux and Windows with Python 3.12. Batch policy has not been validated by a hosted concurrency/load benchmark.
