@@ -1,0 +1,30 @@
+[server]
+address = "127.0.0.1"
+port = 8501
+maxUploadSize = 5
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#0f766e"
+backgroundColor = "#f5f7fa"
+secondaryBackgroundColor = "#f0f4f7"
+textColor = "#172b38"
+font = "Segoe UI"
+baseRadius = "0.6rem"
+buttonRadius = "0.5rem"
+borderColor = "#e2e8ed"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#edf2f6"
+dataframeHeaderTextColor = "#344c5b"
+chartCategoricalColors = ["#0f766e", "#536b92", "#d69b45", "#7cabb3"]
+
+[theme.sidebar]
+primaryColor = "#8dd5c1"
+backgroundColor = "#172b38"
+secondaryBackgroundColor = "#203744"
+textColor = "#e3edf3"
+borderColor = "#3b5260"

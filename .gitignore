@@ -1,0 +1,51 @@
+# Python environments and generated files
+.venv/
+venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local test runs and review evidence may contain personal data
+.test-*/
+.tmp*
+reports/
+instructions/
+
+# Personal workspaces, receipts, backups, and exported data
+data/
+sample-data/
+*.sqlite*
+*.db
+*.db-*
+*.pdf
+*.zip
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Packaging output
+dist/
+*.egg-info/
+build/

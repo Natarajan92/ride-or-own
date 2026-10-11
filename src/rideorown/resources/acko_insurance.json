@@ -1,0 +1,17 @@
+{
+  "provider": "ACKO",
+  "researched_on": "2026-10-10",
+  "sources": [
+    {"label":"ACKO third-party insurance","url":"https://www.acko.com/third-party-car-insurance/"},
+    {"label":"ACKO own-damage cover","url":"https://www.acko.com/car-insurance/own-damage-insurance/"},
+    {"label":"ACKO premium calculator","url":"https://www.acko.com/car-insurance/premium-calculator/"}
+  ],
+  "initial_coverage_assumption": "Three-year third-party plus one-year own-damage, subject to the actual ACKO quote.",
+  "renewals": [
+    {"year":2,"month":13,"coverage":"Own damage and selected add-ons"},
+    {"year":3,"month":25,"coverage":"Own damage and selected add-ons"},
+    {"year":4,"month":37,"coverage":"Third-party, own damage and selected add-ons"},
+    {"year":5,"month":49,"coverage":"Third-party, own damage and selected add-ons"}
+  ],
+  "premium_notice": "No universal premium is provided. Use an ACKO quote or explicitly labelled insurance budgets, including taxes and selected add-ons. Renewal values are entered in future rupees; no further escalation is applied."
+}
